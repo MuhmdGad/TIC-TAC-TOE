@@ -16,7 +16,7 @@ Network based Tic-Tac-Toe game, implemented with JavaFX as a project in ITI Open
 * [Team members]
 
 # Getting Started
-# Install and config
+# How to run the Game
   
  * How to run the Game
     - open project in netbeans or intellij idea
