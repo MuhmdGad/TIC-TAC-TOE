@@ -1,0 +1,30 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 8, 2020, 12:54:49 PM
+    Author     : Dell
+*/
+.bodybg{
+ /*-fx-background-image: url('backGroundn.jpeg');*/
+ -fx-background-color:  #8c062c;
+ -fx-background-size: 100% 100%;
+}
+.bodybg2{
+/* -fx-background-image: url('splash.jpeg');*/
+ -fx-background-color:  #8c062c;
+ -fx-background-size: 100% 100%;
+}
+.button{
+ -fx-background-color:transparent;
+}
+
+
+.bodycolor{
+    -fx-background-color: blueviolet;
+}
+.Backgroundcolor{
+    -fx-background-color: grey;
+}

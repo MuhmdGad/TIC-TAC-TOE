@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="root" prefHeight="500.0" prefWidth="700.0" styleClass="bodybg3" stylesheets="@../Style/GameStyle.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="screen.SignINController">
+   <children>
+      <AnchorPane layoutX="50.0" layoutY="50.0" prefHeight="421.0" prefWidth="621.0">
+         <children>
+            <Button fx:id="guest_btn" layoutX="226.0" layoutY="30.0" mnemonicParsing="false" onAction="#guest_click" prefHeight="169.0" prefWidth="170.0" style="-fx-background-color: #ffd880;">
+               <font>
+                  <Font name="Cambria Math" size="19.0" />
+               </font>
+            </Button>
+            <Button fx:id="network_btn" layoutX="226.0" layoutY="211.0" mnemonicParsing="false" onAction="#network_click" prefHeight="150.0" prefWidth="170.0" style="-fx-background-color: #ffd880;">
+               <font>
+                  <Font name="Cambria Math" size="19.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="25.0" layoutY="136.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Style/letter2-x.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="443.0" layoutY="128.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Style/letter1-o.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="249.0" layoutY="164.0" prefHeight="46.0" prefWidth="121.0" text="Play As Guest" textFill="#290149">
+               <font>
+                  <Font name="28 Days Later" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="271.0" layoutY="324.0" prefHeight="46.0" prefWidth="94.0" text="Network" textFill="#290149">
+               <font>
+                  <Font name="28 Days Later" size="22.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

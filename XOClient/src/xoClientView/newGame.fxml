@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="700.0" styleClass="bodybg" stylesheets="@../Style/GameStyle1.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="screen.NewGameController">
+   <children>
+      <Button fx:id="singleplay_btn" layoutX="230.0" layoutY="113.0" mnemonicParsing="false" onAction="#HandleSinglePlayer" prefHeight="70.0" prefWidth="278.0" style="-fx-background-color: #ffd880;" text="Single Player" textFill="#290149">
+         <font>
+            <Font name="DODGE" size="25.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="50.0" fitWidth="71.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Style/user.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="multLOCALi_btn" layoutX="221.0" layoutY="228.0" mnemonicParsing="false" onAction="#HandleLocalPlayers" prefHeight="70.0" prefWidth="306.0" style="-fx-background-color: #ffd880;" text="MultiPlayer" textFill="#290149">
+         <font>
+            <Font name="DODGE" size="25.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="50.0" fitWidth="71.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Style/user.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="Record_btn" layoutX="211.0" layoutY="353.0" mnemonicParsing="false" onAction="#RecordingAction" prefHeight="70.0" prefWidth="323.0" style="-fx-background-color: #ffd880;" text="Recorded Games" textFill="#290149">
+         <font>
+            <Font name="DODGE" size="25.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="50.0" fitWidth="79.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Style/playicon.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="back_button" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#back_click" prefHeight="59.0" prefWidth="72.0" textFill="WHITE">
+         <font>
+            <Font name="Cambria Math" size="15.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="37.0" fitWidth="37.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Style/previous.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <ImageView fitHeight="50.0" fitWidth="71.0" layoutX="244.0" layoutY="238.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Style/user.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

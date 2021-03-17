@@ -1,0 +1,15 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 20, 2020, 9:26:59 PM
+    Author     : Amr
+*/
+.list-view .list-cell:even {
+-fx-text-fill: darkgreen;
+}
+.list-view .list-cell:odd {
+-fx-text-fill: darkgreen;
+}

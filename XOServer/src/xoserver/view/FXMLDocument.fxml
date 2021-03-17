@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.PieChart?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="498.0" prefWidth="680.0" styleClass="bodybg3" stylesheets="@../../Style/BackgroundServer.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="xoserver.FXMLDocumentController">
+   <children>
+      <RadioButton fx:id="btnOn" layoutX="511.0" layoutY="266.0" mnemonicParsing="false" text="ON" textFill="#0a7c26" />
+      <RadioButton fx:id="btnOff" layoutX="511.0" layoutY="295.0" mnemonicParsing="false" text="OFF" textFill="RED" />
+      <Text fill="WHITE" layoutX="135.0" layoutY="105.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TIC TAC TOE SERVER" textAlignment="CENTER" wrappingWidth="410.13671875">
+         <font>
+            <Font name="Cambria Math" size="40.0" />
+         </font>
+      </Text>
+      <Text fx:id="txtServerStatus" fill="WHITE" layoutX="422.0" layoutY="244.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Server is OFF" textAlignment="CENTER" wrappingWidth="220.13671875" AnchorPane.rightAnchor="37.86328125">
+         <font>
+            <Font name="Cambria Math" size="20.0" />
+         </font>
+      </Text>
+      <PieChart fx:id="usersChart" layoutX="74.0" layoutY="178.0" legendSide="LEFT" prefHeight="234.0" prefWidth="304.0" style="-fx-background-color: #ffffff;" titleSide="BOTTOM" />
+      <Text fill="WHITE" layoutX="110.0" layoutY="428.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Users Chart" textAlignment="CENTER" wrappingWidth="220.13671875">
+         <font>
+            <Font name="Cambria Math" size="20.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
